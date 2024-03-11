@@ -1,5 +1,5 @@
 import { loadExternalStyles } from "alem/api";
-import Spinner from "@dapp/components/Spinner";
+import Spinner from "./components/Spinner";
 
 const App = () => {
   const fontsLoaded = loadExternalStyles(["https://fonts.cdnfonts.com/css/display"]);
